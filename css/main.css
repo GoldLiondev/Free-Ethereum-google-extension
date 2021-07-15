@@ -1,0 +1,53 @@
+body {
+  background-color: #f4f1fa;
+  padding: 30px;
+}
+h2 {
+  margin: 0.1em;
+}
+p {
+  margin: 0.1em;
+}
+.header {
+  margin-bottom: 0.5em;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+}
+.actioncontainer {
+  display: flex;
+  gap: 10px;
+}
+.inputContainer {
+  display: flex;
+  gap: 5px;
+}
+.walletaddress {
+  border: 1px solid #f77d0e;
+  padding: 10px 20px;
+  max-width: 200px;
+  background-color: #f1f1f1;
+  outline: none !important;
+  border-radius: 10px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #36558f;
+  padding: 10px 20px;
+  max-width: 200px;
+  background-color: white;
+  color: #36558f;
+  border-radius: 20px;
+  outline: none !important;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  font-size: 14px;
+}
+button:active {
+  transform: scale(0.9);
+  background-color: #36558f;
+  color: white;
+}

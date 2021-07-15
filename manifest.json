@@ -1,0 +1,20 @@
+{
+  "name": "Etherium",
+  "description": "Get the 0.001 ether",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "debugger"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
